@@ -1,7 +1,7 @@
 <h3>Pedestrian Inertial Navigation with Multi-Head CNN</h3>
 
 <figure>
-    <img src=figure/gait_cycle.png alt="human gait" width=50% height=auto>
+    <img src=figure/gait_cycle.png alt="human gait" width=80% height=auto>
     <caption>Fig 1. Pedestrian gait cycle</caption>
 </figure>
 
@@ -12,10 +12,11 @@
 
 
 <figure>
-    <img src=figure/MHCNN-trajectory.png alt="MHCNN trajectory" width=50% height=auto>
+    <img src=figure/MHCNN-trajectory.png alt="MHCNN trajectory" width=80% height=auto>
     <caption>Fig 3. Pedestrian trajectory estimations</caption>
 </figure>
 
+<p align="justify">The error-state KF pedestrian INS (MATLAB) implementation can be found at <a href="http://www.openshoe.org/">OpenShoe</a> webpage.</p>
 <p align="justify">If you like to cite this work, please use the BibTeX info</p>
 
 ```
