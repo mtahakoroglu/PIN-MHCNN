@@ -1,0 +1,35 @@
+QQ Plot of Sample Data versus Standard Normal
+
+a-predicted-groundtruth.csv
+
+1.sütun:CNN tahmini(CNN tarafından tahmin edilen mag ve yaw filtrelendikten sonra bunlardan elde edilen trajectory) 
+2.sütun:ground truth(malinin datasının(x,y) filtrelenmiş halinden elde edilen magnitude, orjinal yaw(matlabdan alınan))
+
+
+
+a-deltayaw.csv
+
+1.sütun:M.Alinin datasının(x,y) filtrelenmiş halinden elde edilen deltayaw
+2.sütun:CNN tarafından tahmin edilmiş deltayawın filtrelenmiş hali.
+3.sütun:ground truth, original_deltayaw(matlabdan elde edilen yawdan hesaplanmış deltayaw),
+4.sütun:CNN tarafından tahmin edilmiş deltayaw
+
+
+
+a-gtmag-predmag-filtpredmag.csv
+
+1.sütun:ground truth, delta-magnitude,(M.Alinin datasının(x,y) filtrelenmiş halinden elde edilen delta-magnitude )
+2.sütun:CNN tarafından tahmin edilmiş delta-magnitude
+3.sütun:CNN tarafından tahmin edilmiş delta-magnitude filtrelenmiş hali
+
+
+
+
+
+a-yaw.csv
+
+1.sütun:CNN tarafından tahmin edilmiş ve filtrelenmiş delta yawdan oluşturulmuş yaw
+2.sütun:CNN tarafından tahmin edilmiş delta yawdan oluşturulmuş yaw
+3.sütun:Original yaw(matlabdan elde edilen yaw)
+4.sütun:M.Alinin datasının(x,y) filtrelenmiş halinden elde edilen deltayaw dan oluşturulmuş yaw
+
