@@ -39,3 +39,5 @@
 or the following plain text.
 
 <p align="justify">G. Cetin, M. A. Kucuk, and M. T. Koroglu, "Pedestrian inertial navigation with multi-head CNN," in $6^{th}$ IEEE International Workshop on Metrology for Industry 4.0 & IoT, pp. 1–6, June 2023.</p>
+
+<p align="justify">The trained network (the file with <b>h5</b> extension) is not in the repo: Github rejected uploading the model file due to large size and while using <b>rm</b> command in git to remove the model file from the added files, the model is accidentally deleted. Yet, one can reproduce it by training the model from scratch (just run <b>code/mhcnn-training/imu-localization.ipynb</b> - training takes approximately 11 hours with the machine mentioned in the paper).</p>
