@@ -1,5 +1,5 @@
 <h3>Pedestrian Inertial Navigation with Multi-Head CNN</h3>
-<p align="justify">Click <a href="https://ieeexplore.ieee.org/document/10180130">here</a> to access the paper.</p>
+<p align="justify">Click <a href="https://ieeexplore.ieee.org/document/10180130" target="_blank">here</a> to access the paper.</p>
 <figure>
     <img src=figure/gait_cycle.png alt="human gait" width=80% height=auto>
     <caption>Fig 1. Pedestrian gait cycle</caption>
@@ -20,19 +20,22 @@
 <p align="justify">If you like to cite this work, please use the BibTeX info</p>
 
 ```
-@INPROCEEDINGS{PIN-MHCNN,
-  author={Cetin, Gokhan and Kucuk, Mehmet Ali and Koroglu, Muhammed Taha},
-  booktitle={2023 IEEE International Workshop on Metrology for Industry 4.0 & IoT (MetroInd4.0&IoT)}, 
-  title={Pedestrian Inertial Navigation with Multi-Head CNN}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={275-280},
-  doi={10.1109/MetroInd4.0IoT57462.2023.10180130}}
+@INPROCEEDINGS
+{
+    PIN-MHCNN,
+    author={Cetin, Gokhan and Kucuk, Mehmet Ali and Koroglu, Muhammed Taha},
+    booktitle={2023 IEEE International Workshop on Metrology for Industry 4.0 & IoT (MetroInd4.0&IoT)}, 
+    title={Pedestrian Inertial Navigation with Multi-Head CNN}, 
+    year={2023},
+    volume={},
+    number={},
+    pages={275-280},
+    doi={10.1109/MetroInd4.0IoT57462.2023.10180130}
+}
 ```
 
 or the following plain text.
 
 <p align="justify">G. Cetin, M. A. Kucuk and M. T. Koroglu, "Pedestrian Inertial Navigation with Multi-Head CNN," <i>2023 IEEE International Workshop on Metrology for Industry 4.0 & IoT (MetroInd4.0&IoT)</i>, Brescia, Italy, 2023, pp. 275-280.</p>
 
-<p align="justify">The trained network (the file with <b>h5</b> extension) is not in the repo: Github rejected uploading the model file due to large size and while using <b>rm</b> command in git to remove the model file from the added files, the model is accidentally deleted. Yet, one can reproduce it by training the model from scratch (just run <b>code/mhcnn-training/imu-localization.ipynb</b> - training takes approximately 11 hours with the machine mentioned in the paper).</p>
+<p align="justify">The trained network (the file with <b>h5</b> extension) is not in the repo: Github rejected uploading the model file due to large size and while using <b>rm</b> command in git to remove the model file from the added files, the model is accidentally deleted. Yet, one can reproduce it by training the model from scratch (just run <b>code/mhcnn-training/imu-localization.ipynb</b> - training takes approximately 11 hours with the PC mentioned in the paper).</p>
